@@ -65,7 +65,10 @@ class _MyWidgetState extends State<Body> {
                           SizedBox(
                             height: 10,
                           ),
-                          Text("data")
+                          Text(
+                            "Enrollment",
+                            style: TextStyle(fontSize: 10),
+                          )
                         ],
                       ),
                     ),
@@ -85,7 +88,10 @@ class _MyWidgetState extends State<Body> {
                           SizedBox(
                             height: 10,
                           ),
-                          Text("data")
+                          Text(
+                            "Events",
+                            style: TextStyle(fontSize: 10),
+                          )
                         ],
                       ),
                     ),
@@ -105,7 +111,10 @@ class _MyWidgetState extends State<Body> {
                           SizedBox(
                             height: 10,
                           ),
-                          Text("data")
+                          Text(
+                            "Calendar",
+                            style: TextStyle(fontSize: 10),
+                          )
                         ],
                       ),
                     ),
@@ -125,92 +134,10 @@ class _MyWidgetState extends State<Body> {
                           SizedBox(
                             height: 10,
                           ),
-                          Text("data")
-                        ],
-                      ),
-                    ),
-                  ],
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    Container(
-                      child: Column(
-                        children: [
-                          Container(
-                              width: 50,
-                              height: 50,
-                              padding: EdgeInsets.all(12),
-                              decoration: BoxDecoration(
-                                color: Colors.black12,
-                                borderRadius: BorderRadius.circular(50),
-                              ),
-                              child:
-                                  Image.asset("assets/icons/enrollment.png")),
-                          SizedBox(
-                            height: 10,
-                          ),
-                          Text("data")
-                        ],
-                      ),
-                    ),
-                    Container(
-                      child: Column(
-                        children: [
-                          Container(
-                              width: 50,
-                              height: 50,
-                              padding: EdgeInsets.all(12),
-                              decoration: BoxDecoration(
-                                color: Colors.black12,
-                                borderRadius: BorderRadius.circular(50),
-                              ),
-                              child:
-                                  Image.asset("assets/icons/enrollment.png")),
-                          SizedBox(
-                            height: 10,
-                          ),
-                          Text("data")
-                        ],
-                      ),
-                    ),
-                    Container(
-                      child: Column(
-                        children: [
-                          Container(
-                              width: 50,
-                              height: 50,
-                              padding: EdgeInsets.all(12),
-                              decoration: BoxDecoration(
-                                color: Colors.black12,
-                                borderRadius: BorderRadius.circular(50),
-                              ),
-                              child:
-                                  Image.asset("assets/icons/enrollment.png")),
-                          SizedBox(
-                            height: 10,
-                          ),
-                          Text("data")
-                        ],
-                      ),
-                    ),
-                    Container(
-                      child: Column(
-                        children: [
-                          Container(
-                              width: 50,
-                              height: 50,
-                              padding: EdgeInsets.all(12),
-                              decoration: BoxDecoration(
-                                color: Colors.black12,
-                                borderRadius: BorderRadius.circular(50),
-                              ),
-                              child:
-                                  Image.asset("assets/icons/enrollment.png")),
-                          SizedBox(
-                            height: 10,
-                          ),
-                          Text("data")
+                          Text(
+                            "Contact",
+                            style: TextStyle(fontSize: 10),
+                          )
                         ],
                       ),
                     ),
@@ -235,7 +162,10 @@ class _MyWidgetState extends State<Body> {
                           SizedBox(
                             height: 10,
                           ),
-                          Text("data")
+                          Text(
+                            "Campus",
+                            style: TextStyle(fontSize: 10),
+                          )
                         ],
                       ),
                     ),
@@ -255,7 +185,10 @@ class _MyWidgetState extends State<Body> {
                           SizedBox(
                             height: 10,
                           ),
-                          Text("data")
+                          Text(
+                            "Apply",
+                            style: TextStyle(fontSize: 10),
+                          )
                         ],
                       ),
                     ),
@@ -275,7 +208,10 @@ class _MyWidgetState extends State<Body> {
                           SizedBox(
                             height: 10,
                           ),
-                          Text("data")
+                          Text(
+                            "Locations",
+                            style: TextStyle(fontSize: 10),
+                          )
                         ],
                       ),
                     ),
@@ -295,7 +231,107 @@ class _MyWidgetState extends State<Body> {
                           SizedBox(
                             height: 10,
                           ),
-                          Text("data")
+                          Text(
+                            "FAQ",
+                            style: TextStyle(fontSize: 10),
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    Container(
+                      child: Column(
+                        children: [
+                          Container(
+                              width: 50,
+                              height: 50,
+                              padding: EdgeInsets.all(12),
+                              decoration: BoxDecoration(
+                                color: Colors.black12,
+                                borderRadius: BorderRadius.circular(50),
+                              ),
+                              child:
+                                  Image.asset("assets/icons/enrollment.png")),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            "Scholarship",
+                            style: TextStyle(fontSize: 10),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      child: Column(
+                        children: [
+                          Container(
+                              width: 50,
+                              height: 50,
+                              padding: EdgeInsets.all(12),
+                              decoration: BoxDecoration(
+                                color: Colors.black12,
+                                borderRadius: BorderRadius.circular(50),
+                              ),
+                              child:
+                                  Image.asset("assets/icons/enrollment.png")),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            "Video",
+                            style: TextStyle(fontSize: 10),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      child: Column(
+                        children: [
+                          Container(
+                              width: 50,
+                              height: 50,
+                              padding: EdgeInsets.all(12),
+                              decoration: BoxDecoration(
+                                color: Colors.black12,
+                                borderRadius: BorderRadius.circular(50),
+                              ),
+                              child:
+                                  Image.asset("assets/icons/enrollment.png")),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            "About Us",
+                            style: TextStyle(fontSize: 10),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      child: Column(
+                        children: [
+                          Container(
+                              width: 50,
+                              height: 50,
+                              padding: EdgeInsets.all(12),
+                              decoration: BoxDecoration(
+                                color: Colors.black12,
+                                borderRadius: BorderRadius.circular(50),
+                              ),
+                              child:
+                                  Image.asset("assets/icons/enrollment.png")),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            "Profile",
+                            style: TextStyle(fontSize: 10),
+                          )
                         ],
                       ),
                     ),
@@ -359,7 +395,10 @@ class _MyWidgetState extends State<Body> {
                           SizedBox(
                             height: 10,
                           ),
-                          Text("data")
+                          Text(
+                            "Associate's Degree",
+                            style: TextStyle(fontSize: 10),
+                          )
                         ],
                       ),
                     ),
@@ -378,7 +417,10 @@ class _MyWidgetState extends State<Body> {
                           SizedBox(
                             height: 10,
                           ),
-                          Text("data")
+                          Text(
+                            "Bachelor's Degree",
+                            style: TextStyle(fontSize: 10),
+                          )
                         ],
                       ),
                     ),
@@ -397,7 +439,10 @@ class _MyWidgetState extends State<Body> {
                           SizedBox(
                             height: 10,
                           ),
-                          Text("data")
+                          Text(
+                            "Master's Degree",
+                            style: TextStyle(fontSize: 10),
+                          )
                         ],
                       ),
                     ),
@@ -416,7 +461,10 @@ class _MyWidgetState extends State<Body> {
                           SizedBox(
                             height: 10,
                           ),
-                          Text("data")
+                          Text(
+                            "Doctoral Degree",
+                            style: TextStyle(fontSize: 10),
+                          )
                         ],
                       ),
                     ),
