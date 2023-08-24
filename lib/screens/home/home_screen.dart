@@ -1,4 +1,6 @@
+import 'package:change_language/extentions.dart';
 import 'package:change_language/screens/change_language/change_language_screen.dart';
+import 'package:change_language/screens/home/components/body.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -19,10 +21,10 @@ class _MyWidgetState extends State<HomeScreen> {
             Container(
               height: 250,
               decoration: BoxDecoration(
-                color: Colors.indigo.shade900,
+                color: '#000066'.toColor(),
               ),
               child: Container(
-                margin: EdgeInsets.only(left: 10),
+                margin: EdgeInsets.only(left: 20),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -176,7 +178,7 @@ class _MyWidgetState extends State<HomeScreen> {
       ),
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.indigo.shade900,
+        backgroundColor: '#000066'.toColor(),
         actions: [
           IconButton(
             onPressed: () {
@@ -190,6 +192,21 @@ class _MyWidgetState extends State<HomeScreen> {
           ),
           IconButton(onPressed: () {}, icon: Icon(Icons.notifications))
         ],
+      ),
+      body: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.only(
+            bottomLeft: Radius.circular(25),
+            bottomRight: Radius.circular(25),
+          ),
+          image: DecorationImage(
+            image: AssetImage(
+              "assets/images/image_bg.png",
+            ), // <-- BACKGROUND IMAGE
+            fit: BoxFit.cover,
+          ),
+        ),
+        child: Body(),
       ),
     );
   }
